@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="pos_v2">
-    <output-path>$PROJECT_DIR$/out/artifacts/pos_v2</output-path>
-    <root id="archive" name="pos_v2.war">
+  <artifact type="war" name="webpos">
+    <output-path>$PROJECT_DIR$/out/artifacts/webpos</output-path>
+    <root id="archive" name="webpos.war">
       <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="WEB-MVC-Alpha-POS-System-v2" />
-        </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="mysql-connector-java-8.0.23" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="WEB-MVC-Alpha-POS-System-v2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="WEB-MVC-Alpha-POS-System-v2/web/Web" />
